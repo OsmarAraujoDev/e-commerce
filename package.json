@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsmarAraujoDev/e-commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsmarAraujoDev/e-commerce/issues"
+  },
+  "homepage": "https://github.com/OsmarAraujoDev/e-commerce#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.3",
+    "mysql2": "^3.19.1",
+    "sequelize": "^6.37.8"
+  }
+}
